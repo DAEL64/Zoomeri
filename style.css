@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wght@100..900&display=swap');
+body{
+  padding: 0;
+  margin: 0;
+}
+body{
+  height: 200dvh;
+}
+*::before,*::after,*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+.header{
+  background-color: rgb(236, 94, 42);
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+.number{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+}
+.number p{
+  color: white;
+  font-size: smaller;
+  font-family: "Noto Sans Georgian", sans-serif;
+}
+.info{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.info p{
+  color: white;
+  font-size: smaller;
+  align-content: center;
+  font-family: "Noto Sans Georgian", sans-serif;
+}
+.header1{
+  background-color: rgb(241, 240, 240);
+  display: flex;
+  max-width: 100%;
+  justify-content: center;
+  top: 0;
+  position: sticky;
+  z-index: 2;
+}
+.container{
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+.container div{
+  display: flex;
+  padding: 0px 20px;
+  gap: 15px;
+  align-content: center;
+  font-family: "Noto Sans Georgian", sans-serif;
+}
+.navigacia div{
+  color: white;
+  background-color: rgb(236, 94, 42);
+  border-radius: 13px;
+  display: flex;
+  align-items: center;
+}
+.percent{
+  background-color: rgb(236, 94, 42);
+  border-radius: 13px;
+  display: flex;
+  align-items: center;
+}
+.basket{
+  background-color: white;
+  border-radius: 13px;
+  display: flex;
+  align-items: center;
+}
+.signin{
+  background-color: white;
+  border-radius: 13px;
+  display: flex;
+  align-items: center;
+}
+.title div{
+  font-size: 20px;
+  color: rgb(236, 94, 42);
+}
+.navbar{
+  width: 30%;
+}
+.navbar input{
+  border: 1px solid rgb(236, 94, 42);
+  border-radius: 15px;
+  width: 100%;
+  padding: 10px;
+}
+.container2{
+  width: 65%;
+  margin: 0 auto;
+  padding: 20px 0px;
+}
+.unl{
+  width: 20%;
+}
+.unl ul{
+  list-style-type: none;
+}
+.unl ul li{
+  display: flex;
+  padding: 15px;
+  gap: 5px;
+  align-items: center;
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-size: small;
+}
+.mainbody{
+  display: flex;
+}
+.mainimage{
+  display: flex;
+  justify-content: end; 
+  width: 80%;
+  position: relative;
+}
+.mainimage img{
+  border-radius: 20px;
+  width: 100%;
+}
+button:hover{
+  background-color: grey;
+}
+.buttons button{
+  border: 0px transparent;
+  background: transparent;
+  position: absolute;
+  top: 45%;
+  right: 5px;
+  z-index: 1;
+}
+.buttons2 button{
+  border: 0px transparent;
+  background: transparent;
+  position: absolute;
+  top: 45%;
+  left: 5px;
+}
+.container3{
+  padding-top: 20px;
+}
+.satauri div{
+  padding: 20px;
+}
+.grid{
+  width: 100%;
+  padding: 15px 0px;
+  gap: 10px;
+  display: grid;
+  grid-template-columns: repeat(6 , 1fr);
+}
+.grid img{
+  width: 100%;
+}
+.gridtext{
+  font-family: "Noto Sans Georgian", sans-serif;
+  padding: 10px 0px;
+  font-size: small;
+  display: flex;
+  gap: 10px;
+}
+.bestprice{
+  font-size: 9px;
+  background-color: rgb(236, 94, 42);
+  width: fit-content;
+  border-radius: 15px;
+  padding: 5px 8px;
+  color: white;
+  font-family: "Noto Sans Georgian", sans-serif;
+}
+.oldprice{
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+}
+.gridtext2{
+  font-family: "Noto Sans Georgian", sans-serif;
+  font-size: 8px;
+}
+.ganvadeba{
+  display: flex;
+  gap: 5px;
+}
+.ricxvi{
+  color: rgb(236, 94, 42);
+}
+.productname div{
+  font-weight: 545;
+  padding: 5px 0px;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+.buttons1{
+  gap: 5px;
+  padding: 9px 0px;
+}
+.firstbutton{
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: rgb(242, 242, 242);
+  padding: 8px 12px;
+}
+.secondbutton{
+  border: 1px solid transparent;
+  border-radius: 5px;
+  background-color: rgb(242, 143, 106);
+  padding: 8px 12px;
+}
+.fullimage{
+  padding: 20px 0px;
+  width: 100%;
+}
+.fullimage img{
+  width: 100%;
+  border-radius: 10px;
+}
